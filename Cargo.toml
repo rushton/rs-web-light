@@ -1,0 +1,11 @@
+[package]
+name = "web-light"
+version = "0.1.0"
+authors = ["Nick Rushton <nick@tune.com>"]
+
+[dependencies]
+iron = "0.6.0"                        # Extensible, Concurrency Focused Web Development in Rust.
+router = "0.6.0"                 # A router for the Iron framework.
+serde_json = "1.0.31"                     # A JSON serialization file format
+serde_derive = "1.0.79"                   # Macros 1.1 implementation of #[derive(Serialize, Deserialize)]
+serde = "1.0.79"                          # A generic serialization/deserialization framework
